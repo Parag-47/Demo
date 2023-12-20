@@ -6,6 +6,7 @@
 body{
     font-family: 'Balsamiq Sans', cursive;
 }
+
 .logo{
     color: #fff;
 }
@@ -244,7 +245,7 @@ body{
 	box-sizing: border-box;
 	text-align: center;
 }
-.box .content h2
+.box .content h4
 {
 	margin: 0;
 	padding: 0;
@@ -257,7 +258,7 @@ body{
 	padding: 5px;
 	display: inline-block;
 }
-.box .content h2,
+.box .content h4,
 .box .content p,
 .box .content a
 {
@@ -265,7 +266,7 @@ body{
 	transition: 0.5s;
 	transform: translateY(20px);
 }
-.box:hover .content h2
+.box:hover .content h4
 {
 	opacity: 1;
 	transform: translateY(0);
@@ -430,4 +431,4 @@ opacity: 1;
 .social .list-item:nth-child(4):before,
 .social .list-item:nth-child(4):after{
   background: linear-gradient(45deg,#0791c7, #f794a5);
-} 
+}
